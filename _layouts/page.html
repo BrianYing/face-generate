@@ -1,0 +1,35 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+<!-- <main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}"> -->
+<!-- <main class="container-fluid">
+  <div class="row">
+    <div class="left-edge-container">
+      <img src="/assets/img/skyscraper.gif">
+    </div>
+
+    <div class="col-xl-8">
+      {{ content }}
+    </div>
+
+    <div class="right-edge-container">
+      <img src="/assets/img/skyscraper.gif">
+    </div>
+  </div>
+</main> -->
+
+
+<main class="container-md">
+    <div class="left-edge-container">
+      <img src="/assets/img/skyscraper.gif">
+    </div>
+
+      {{ content }}
+
+    <div class="right-edge-container">
+      <img src="/assets/img/skyscraper.gif">
+    </div>
+</main>
